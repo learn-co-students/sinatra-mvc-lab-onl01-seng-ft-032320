@@ -1,4 +1,9 @@
+## 
+#This class takes an arugment of a string, piglatinizes it, and makes an instance of the result
+
 class PigLatinizer
+
+
     attr_reader :words
   
 

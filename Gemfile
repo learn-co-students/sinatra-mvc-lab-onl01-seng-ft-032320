@@ -9,6 +9,8 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
+gem 'rdoc'
+gem 'rdoc-sinatra'
 
 group :test do
       gem 'rspec'

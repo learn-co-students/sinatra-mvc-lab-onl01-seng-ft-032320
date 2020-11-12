@@ -1,0 +1,9 @@
+Wed, 11 Nov 2020 23:54:46 -0500
+./config/environment.rb	Mon, 04 May 2020 19:23:32 -0400
+./app.rb	Wed, 06 May 2020 09:19:19 -0400
+./spec/spec_helper.rb	Mon, 04 May 2020 19:23:32 -0400
+./spec/sinatra_mvc_lab_spec.rb	Mon, 04 May 2020 19:23:32 -0400
+./spec/models/piglatinizer_spec.rb	Mon, 04 May 2020 19:23:32 -0400
+./models/piglatinizer.rb	Wed, 06 May 2020 09:20:26 -0400
+./Rakefile	Mon, 04 May 2020 19:23:32 -0400
+./Gemfile	Wed, 11 Nov 2020 23:49:42 -0500
