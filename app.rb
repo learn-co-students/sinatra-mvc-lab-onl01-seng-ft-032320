@@ -8,6 +8,8 @@ class App < Sinatra::Base
     end
 
     post '/piglatinize' do
+        ##
+        # This is a test to see if this comment appears
        @analyzed_text = PigLatinizer.new.piglatinize(params[:user_phrase])
        erb :result
     end

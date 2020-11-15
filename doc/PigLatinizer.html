@@ -116,6 +116,9 @@
 
   <div id="description" class="description">
     
+<p>This class takes an arugment of a string, piglatinizes it, and makes an
+instance of the result</p>
+
   </div><!-- description -->
 
   
@@ -172,7 +175,7 @@
 
           
           <div class="method-source-code" id="piglatinize-source">
-            <pre><span class="ruby-comment"># File models/piglatinizer.rb, line 5</span>
+            <pre><span class="ruby-comment"># File models/piglatinizer.rb, line 10</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">piglatinize</span>(<span class="ruby-identifier">words</span>)
     <span class="ruby-keyword">return</span> <span class="ruby-node">&quot;#{words}way&quot;</span> <span class="ruby-keyword">if</span>(<span class="ruby-identifier">words</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>)
     <span class="ruby-identifier">words_array</span> = <span class="ruby-identifier">words</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">&quot; &quot;</span>)
@@ -207,8 +210,12 @@
 
           
           <div class="method-source-code" id="turn_word_to_pig_latin-source">
-            <pre><span class="ruby-comment"># File models/piglatinizer.rb, line 13</span>
+            <pre><span class="ruby-comment"># File models/piglatinizer.rb, line 18</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">turn_word_to_pig_latin</span>(<span class="ruby-identifier">word</span>)
+  <span class="ruby-comment">#</span>
+  <span class="ruby-comment"># == What this method does</span>
+  <span class="ruby-comment"># [turn_word_to_pig_latin] A method to piglatinize strings</span>
+  <span class="ruby-comment">#</span>
   <span class="ruby-identifier">first_letter</span> = <span class="ruby-identifier">word</span>[<span class="ruby-value">0</span>]
   <span class="ruby-identifier">rest_of_word</span> = <span class="ruby-identifier">word</span>[<span class="ruby-value">1</span><span class="ruby-operator">..</span>]
   <span class="ruby-identifier">vowels</span> = [<span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;e&quot;</span>, <span class="ruby-string">&quot;i&quot;</span>, <span class="ruby-string">&quot;o&quot;</span>, <span class="ruby-string">&quot;u&quot;</span>, <span class="ruby-string">&quot;A&quot;</span>, <span class="ruby-string">&quot;E&quot;</span>, <span class="ruby-string">&quot;I&quot;</span>, <span class="ruby-string">&quot;O&quot;</span>, <span class="ruby-string">&quot;U&quot;</span>]

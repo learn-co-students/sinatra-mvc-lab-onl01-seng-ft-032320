@@ -37,3 +37,16 @@ below to get you started!
 <a href='https://en.wikipedia.org/wiki/Pig_Latin'>Pig Latin on wikipedia</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-mvc-lab'>Sinatra MVC Lab</a> on Learn.co and start learning to code for free.</p>
+
+## Routes
+
+|  route | methods  | description  |  Docs |
+|---|---|---|---|
+|  '/' |  GET |   |   |
+| '/piglatinize'  | POST  | Creates piglatinize object from user input, renders a result view  |   |
+
+## Models
+|  Methods | description  |  Docs |
+|---|---|---|
+|  piglatinize |  takes in a string |  [Rdoc](#piglatinize) |
+|turn_word_to_pig_latin| takes in a string | [Rdoc](#turn_word_to_pig_latin)|

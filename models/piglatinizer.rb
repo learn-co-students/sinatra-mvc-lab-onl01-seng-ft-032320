@@ -16,6 +16,10 @@ class PigLatinizer
         new_words.join(" ")
       end
       def turn_word_to_pig_latin(word)
+        #
+        # == What this method does
+        # [turn_word_to_pig_latin] A method to piglatinize strings
+        #
         first_letter = word[0]
         rest_of_word = word[1..]
         vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
