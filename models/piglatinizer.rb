@@ -1,6 +1,3 @@
-## 
-#This class takes an arugment of a string, piglatinizes it, and makes an instance of the result
-
 class PigLatinizer
 
 
@@ -15,6 +12,7 @@ class PigLatinizer
         end
         new_words.join(" ")
       end
+      
       def turn_word_to_pig_latin(word)
         #
         # == What this method does

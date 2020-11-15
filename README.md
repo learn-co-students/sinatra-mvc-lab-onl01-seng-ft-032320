@@ -49,4 +49,4 @@ below to get you started!
 |  Methods | description  |  Docs |
 |---|---|---|
 |  piglatinize |  takes in a string |  [Rdoc](#piglatinize) |
-|turn_word_to_pig_latin| takes in a string | [Rdoc](#turn_word_to_pig_latin)|
+|turn_word_to_pig_latin| takes in a string | [Rdoc](./models/piglatinizer.rb#L16-L33)|
